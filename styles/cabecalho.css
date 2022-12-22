@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+header {
+    background-color: var(--cor-fundo-escuro);
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+header > h1 {
+    font-family: var(--fonte01);
+    font-variant: small-caps;
+    color: var(--cor-branco);
+    font-size: 3.8rem;
+    text-align: center;
+    padding: 30px 0 10px 0;
+}
+
+header > h2 {
+    font-family: var(--fonte01);
+    color: var(--cor-cinza);
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+header a {
+    font-family: var(--fonte01);
+}
+
+@media screen and (min-width: 600px) {
+    header > h1 {
+        font-size: 8rem;
+    }
+
+    header > h2 {
+        font-size: 3.5rem;
+    }
+}

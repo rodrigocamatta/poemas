@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+footer {
+    background-color: var(--cor-fundo-escuro);
+}
+
+footer > p {
+    display: block;
+    max-width: none;
+    color: var(--cor-cinza);
+    text-align: center;
+    padding: 1vh 0;
+}
